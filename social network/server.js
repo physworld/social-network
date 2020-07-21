@@ -2,7 +2,6 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 dotenv.config({path: './config.env'});
 
-console.log(process.env);
 // TO CATCH UNHANDLED REJECTIONS
 process.on('uncaughtException', err => {
     console.log('UNCAUGHT EXCEPTION! Shutting down...');
